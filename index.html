@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ig</title>
+</head>
+<style>
+    .heah{
+        text-align: center;
+    }
+    button{
+        background-color: #905785;
+        color: aliceblue;
+        opacity: 2px;
+        border: none;
+        border-radius: 4px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 5px;
+    }
+</style>
+<script>
+  function ssd(){
+    var a = document.getElementById('ig').value;
+    //onClick=parent.open('https://www.instagram.com/'+a)
+    (a != "") ? location.href="https://www.instagram.com/"+a : ""
+  }
+</script>
+<body>
+    <div class="heah">
+        <img src="./cute-cat.gif" alt="" height="300px">
+    </div>
+    <div class="heah">
+        <p>hi maay bla bla</p>
+    </div>
+    <div class="heah">
+        <input type="text" id="ig">
+        <Button onclick="ssd()">Click</Button>
+    </div>
+</body>
+</html>
