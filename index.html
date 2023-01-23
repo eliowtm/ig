@@ -26,7 +26,7 @@
 <script>
   function ssd(){
     var a = document.getElementById('ig').value;
-    (a!=)?onClick=parent.open('https://www.instagram.com/'+a):""
+    (a!="")?window.open('https://www.instagram.com/'+a,'_blank') : ""
     //(a != "") ? location.href="https://www.instagram.com/"+a : ""
   }
 </script>
